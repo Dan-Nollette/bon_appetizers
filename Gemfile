@@ -20,6 +20,8 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'shoulda-matchers'
+  gem 'factory_bot'
+  gem 'simplecov', require: false
 end
 
 group :development do
