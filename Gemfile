@@ -11,12 +11,14 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rails-ujs'
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'capybara'
   gem 'shoulda-matchers'
 end
 
